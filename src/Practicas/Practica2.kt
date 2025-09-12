@@ -8,13 +8,13 @@ fun main() {
 
 
     if (!(numero <=0)) {
-        println("Posicion anterior ${cadena[numero-1]}")
+        println("Posicion anterior -> ${cadena[numero-1]}")
     }
 
-    println("Posicion central ${cadena[numero]}")
+    println("Posicion central -> ${cadena[numero]}")
 
     if(numero <= cadena.length-2) {
-        println("Posicion siguiente ${cadena[numero+1]}")
+        println("Posicion siguiente -> ${cadena[numero+1]}")
     }
 
 }
