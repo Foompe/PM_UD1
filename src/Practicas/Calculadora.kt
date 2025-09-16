@@ -4,7 +4,7 @@ import java.lang.IllegalArgumentException
 
 class Calculadora {
 
-
+    //Añadimos un control de nullabilidad
     fun sumar(a: Int?, b:Int?): Int {
         return (a ?: 0 ) + (b ?: 0)
     }
@@ -23,5 +23,4 @@ class Calculadora {
         if (b==0) throw IllegalArgumentException("No se puede dividir por 0")
         return (a ?: 0 ) / divisor
     }
-
 }
