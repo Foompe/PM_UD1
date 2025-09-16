@@ -1,4 +1,4 @@
-package elementos_basicos
+package Elementos_Basicos
 
 fun main() {
     val xPos: Int = 1 //Asignación junto a declaración

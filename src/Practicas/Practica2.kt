@@ -4,7 +4,7 @@ fun main() {
     println("Introduce una cadena de texto")
     val cadena : String = readLine() ?: "Error"
     println("Introduce un número entero que represente una posicion dentro de la cadena")
-    val numero : Int = readLine()?.toInt() ?: 0
+    val numero : Int = readln().toInt()        //Se puede usar readLine():?.toInt():0
 
 
     if (!(numero <=0)) {
@@ -16,5 +16,4 @@ fun main() {
     if(numero <= cadena.length-2) {
         println("Posicion siguiente -> ${cadena[numero+1]}")
     }
-
 }
