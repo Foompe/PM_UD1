@@ -17,6 +17,7 @@ constructor(marca: String,modelo: String, velocidad: Int) : this(marca,modelo){
     fun acelerar(x : Int) {
         if (x > 0) {
             vel += x
+            println("Acelerando $marca $modelo = $vel")
         }
     }
 
@@ -24,6 +25,7 @@ constructor(marca: String,modelo: String, velocidad: Int) : this(marca,modelo){
         vel -= x
         if (vel < 0) {
             vel = 0
+            println("Frenando $marca $modelo = $vel")
         }
     }
 }
