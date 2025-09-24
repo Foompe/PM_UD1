@@ -12,4 +12,5 @@ fun main() {
 
 }
 
+//Practica data class
 data class Usuario2(val nombre: String, val edad: Int, val email: String)
