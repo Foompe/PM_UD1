@@ -17,6 +17,6 @@ data class Task(val title: String, val completed: Boolean = false) {
 
     // 4. Función infix para comparar títulos de tareas
     infix fun Task.sameTitleAs(other: Task): Boolean {
-        // TODO: comparar this.title con other.title
+
     }
 }
