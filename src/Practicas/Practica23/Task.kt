@@ -4,13 +4,13 @@ data class Task(val title: String, val completed: Boolean = false) {
 
     // 2. Función de orden superior para filtrar tareas
     fun filterTasks(tasks: List<Task>, criterio: (Task) -> Boolean): List<Task> {
-        // TODO: implementar usando filter
+
+
 
     }
 
     // 3. Función de extensión para mostrar tareas
     fun List<Task>.printTasks() {
-        // TODO: recorrer la lista y mostrar cada tarea con [x] o [ ]
         ([x] si está completada, [ ] si no)
 
     }
